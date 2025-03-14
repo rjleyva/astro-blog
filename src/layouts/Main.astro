@@ -1,5 +1,15 @@
 ---
+import Header from '@components/Header.astro'
 
+interface mainPageProps {
+  title: string
+  description: string
+}
+
+const mainPage: mainPageProps = {
+  title: "RJ Leyva's Blog",
+  description: "RJ Leyva's Astro TypeScript Blog Built with Bun"
+}
 ---
 
 <!doctype html>
@@ -8,14 +18,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <meta
-      name="description"
-      content="RJ Leyva's Astro TypeScript Blog Built with Bun"
-    />
-    <title>RJ Leyva's Blog</title>
+    <meta name="description" content={mainPage.description} />
+    <title>{mainPage.title}</title>
   </head>
 
   <body>
+    <Header home="RJ Leyva" />
     <slot />
   </body>
 </html>
