@@ -14,7 +14,9 @@
     "astro": "astro"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "prettier": "^3.5.3",
+    "prettier-plugin-astro": "^0.14.1"
   },
   "peerDependencies": {
     "typescript": "^5.8.2"
