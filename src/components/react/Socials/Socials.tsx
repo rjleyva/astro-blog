@@ -1,7 +1,7 @@
 import type { JSX } from 'astro/jsx-runtime'
-import GithubIcon from './icons/GithubIcon'
-import LinkedinIcon from './icons/LinkedinIcon'
-import InstagramIcon from './icons/InstagramIcon'
+import GithubIcon from '../icons/GithubIcon'
+import LinkedinIcon from '../icons/LinkedinIcon'
+import InstagramIcon from '../icons/InstagramIcon'
 
 interface SocialProps {
   id: string
