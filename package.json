@@ -7,7 +7,7 @@
   "private": true,
   "scripts": {
     "dev": "bunx --bun astro dev",
-    "build": "astro check && bunx --bun astro check",
+    "build": "astro check && bunx --bun astro build",
     "preview": "bunx --bun astro preview",
     "format": "bunx --bun prettier --write .",
     "lint": "bunx --bun eslint .",
