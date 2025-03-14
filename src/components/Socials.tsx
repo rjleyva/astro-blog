@@ -66,11 +66,23 @@ const Social: SocialProps[] = [
   }
 ]
 
-const Socials = () => {
+interface SocialsProps {
+  cta: string
+}
+
+const Socials = ({ cta }: SocialsProps) => {
   return (
     <section>
-      <div>
-        <ul>
+      <div style={{ alignItems: 'center', display: 'flex', gap: '1rem' }}>
+        <p>{cta}</p>
+        <ul
+          style={{
+            display: 'flex',
+            gap: '0.5rem',
+            listStyle: 'none',
+            marginBlock: '1rem'
+          }}
+        >
           {Social.map(({ id, url, ariaLabel, target, rel, icon }) => (
             <li key={id}>
               <a href={url} aria-label={ariaLabel} target={target} rel={rel}>
