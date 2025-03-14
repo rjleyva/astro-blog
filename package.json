@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "@astrojs/ts-plugin": "^1.10.4",
-    "astro": "^5.5.2"
+    "astro": "^5.5.2",
+    "eslint-define-config": "^2.1.0"
   }
 }
