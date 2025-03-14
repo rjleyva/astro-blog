@@ -1,5 +1,3 @@
-import { transform } from 'typescript'
-
 interface GitHubIconProps {
   width: number
   height: number
