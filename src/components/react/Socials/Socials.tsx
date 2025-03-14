@@ -2,6 +2,7 @@ import type { JSX } from 'astro/jsx-runtime'
 import GithubIcon from '../icons/GithubIcon'
 import LinkedinIcon from '../icons/LinkedinIcon'
 import InstagramIcon from '../icons/InstagramIcon'
+import styles from '../Socials/socials.module.css'
 
 interface SocialProps {
   id: string
@@ -27,6 +28,7 @@ const Social: SocialProps[] = [
         ariaLabel="GitHub Icon"
         role="img"
         title="Connect with RJ Leyva on GitHub"
+        className={styles.githubIcon}
       />
     )
   },
