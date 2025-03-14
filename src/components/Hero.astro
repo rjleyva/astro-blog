@@ -1,0 +1,48 @@
+---
+interface HeroProps {
+  greeting: string
+  bio: string
+}
+
+let { greeting, bio } = Astro.props as HeroProps
+---
+
+<section>
+  <div class="container">
+    <h1 class="greeting">
+      {greeting}
+    </h1>
+
+    <p class="bio">
+      {bio}
+    </p>
+  </div>
+</section>
+
+<style>
+  .container {
+    margin: 4rem auto;
+    max-width: 30rem;
+    padding: 1rem;
+  }
+
+  .greeting {
+    font-size: 2rem;
+  }
+
+  @media (min-width: 37.5rem) {
+    .greeting {
+      font-size: 2.1rem;
+    }
+  }
+
+  @media (min-width: 55rem) {
+    .greeting {
+      font-size: 2.2rem;
+    }
+  }
+
+  .bio {
+    font-size: 1rem;
+  }
+</style>
