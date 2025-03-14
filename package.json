@@ -1,6 +1,5 @@
 {
   "name": "astro-blog",
-  "module": "index.ts",
   "type": "module",
   "private": true,
   "devDependencies": {
@@ -10,3 +9,4 @@
     "typescript": "^5"
   }
 }
+
