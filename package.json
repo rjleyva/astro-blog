@@ -1,5 +1,8 @@
 {
   "name": "astro-blog",
+  "author": "RJ Leyva",
+  "description": "RJ Leyva's Astro TS Blog Built with Bun",
+  "license": "MIT",
   "type": "module",
   "private": true,
   "devDependencies": {
