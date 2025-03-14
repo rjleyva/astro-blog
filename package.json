@@ -5,6 +5,14 @@
   "license": "MIT",
   "type": "module",
   "private": true,
+  "scripts": {
+    "dev": "bunx --bun astro dev",
+    "build": "astro check && bunx --bun astro check",
+    "preview": "bunx --bun astro preview",
+    "format": "bunx --bun prettier --write .",
+    "lint": "bunx --bun eslint .",
+    "astro": "astro"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
