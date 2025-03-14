@@ -1,19 +1,19 @@
 /** @type {import("prettier").Config} */
 export default {
-  arrowParens: "avoid",
+  arrowParens: 'avoid',
   singleQuote: true,
   bracketSpacing: true,
-  endOfLine: "lf",
+  endOfLine: 'lf',
   semi: false,
   tabWidth: 2,
-  trailingComma: "none",
-  plugins: ["prettier-plugin-astro"],
+  trailingComma: 'none',
+  plugins: ['prettier-plugin-astro'],
   overrides: [
     {
-      files: "*.astro",
+      files: '*.astro',
       options: {
-        parser: "astro",
-      },
-    },
-  ],
-};
+        parser: 'astro'
+      }
+    }
+  ]
+}
