@@ -1,4 +1,6 @@
 ---
+import Socials from './Socials'
+
 interface HeroProps {
   greeting: string
   bio: string
@@ -16,6 +18,8 @@ let { greeting, bio } = Astro.props as HeroProps
     <p class="bio">
       {bio}
     </p>
+
+    <Socials />
   </div>
 </section>
 
