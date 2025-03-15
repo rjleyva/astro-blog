@@ -1,10 +1,12 @@
 :root {
   /* TODO: Light Mode */
+  --background: oklch(0.984 0.003 247.858);
+  --background-secondary: oklch(0.97 0.014 254.604);
   --foreground-primary: oklch(0.129 0.042 264.695);
   --foreground-secondary: oklch(0.372 0.044 257.287);
-  --icons: oklch(0.554 0.046 257.417);
-  --background: oklch(0.984 0.003 247.858);
+  --link: oklch(0.546 0.245 262.881);
   --link-hover: oklch(0.488 0.243 264.376);
+  --shadow: oklch(0.546 0.245 262.881);
 }
 
 @font-face {
