@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/Markdown.astro
 title: 'Hello'
 description: 'Sample Post'
 ---
