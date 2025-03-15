@@ -7,7 +7,6 @@
         "@astrojs/check": "^0.9.4",
         "@astrojs/react": "^4.2.1",
         "@astrojs/ts-plugin": "^1.10.4",
-        "@fontsource-variable/rubik": "^5.2.5",
         "@types/react": "^19.0.10",
         "@types/react-dom": "^19.0.4",
         "astro": "^5.5.2",
@@ -170,8 +169,6 @@
     "@eslint/object-schema": ["@eslint/object-schema@2.1.6", "", {}, "sha512-RBMg5FRL0I0gs51M/guSAj5/e14VQ4tpZnQNWwuDT66P14I43ItmPfIZRhO9fUVIPOAQXU47atlywZ/czoqFPA=="],
 
     "@eslint/plugin-kit": ["@eslint/plugin-kit@0.2.7", "", { "dependencies": { "@eslint/core": "^0.12.0", "levn": "^0.4.1" } }, "sha512-JubJ5B2pJ4k4yGxaNLdbjrnk9d/iDz6/q8wOilpIowd6PJPgaxCuHBnBszq7Ce2TyMrywm5r4PnKm6V3iiZF+g=="],
-
-    "@fontsource-variable/rubik": ["@fontsource-variable/rubik@5.2.5", "", {}, "sha512-6tXqnHFA9/ItIEODfH5LrzLSmcNE5TXD8OuXx14cvmS7j1zX4JgEHjYrhlWhLGuBXXzrOnz0A0oMheMMbXwmWA=="],
 
     "@humanfs/core": ["@humanfs/core@0.19.1", "", {}, "sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA=="],
 
