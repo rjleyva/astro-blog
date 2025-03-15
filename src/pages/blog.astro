@@ -12,9 +12,9 @@ const allPosts = Object.values(
         allPosts.map((post: any) => (
           <li class="post-list">
             <a href={post.url}>
-              <h1>{post.frontmatter.title}</h1>
+              <b class="post-title">{post.frontmatter.title}</b>
             </a>
-            <p>{post.frontmatter.description}</p>
+            <p class="post-description">{post.frontmatter.description}</p>
           </li>
         ))
       }
@@ -30,5 +30,14 @@ const allPosts = Object.values(
 
   .post-list {
     margin-block: 1rem;
+  }
+
+  .post-description {
+    color: var(--foreground-secondary);
+  }
+
+  .post-title:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
   }
 </style>
