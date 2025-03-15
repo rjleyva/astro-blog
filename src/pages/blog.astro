@@ -12,9 +12,9 @@ const allPosts = Object.values(
         allPosts.map((post: any) => (
           <li class="post-list">
             <a href={post.url}>
-              <b class="post-title">{post.frontmatter.title}</b>
+              <h4 class="post-title">{post.frontmatter.title}</h4>
+              <p class="post-description">{post.frontmatter.description}</p>
             </a>
-            <p class="post-description">{post.frontmatter.description}</p>
           </li>
         ))
       }
@@ -29,15 +29,31 @@ const allPosts = Object.values(
   }
 
   .post-list {
-    margin-block: 1rem;
+    background: var(--background-tertiary);
+    border: solid 0.01rem var(--border);
+    border-radius: 0.5rem;
+    margin-block: 1.5rem;
+    padding: 0.6rem;
+  }
+
+  /* TODO: figure out how gradient color works */
+
+  .post-list:hover {
   }
 
   .post-description {
     color: var(--foreground-secondary);
   }
 
-  .post-title:hover {
-    color: var(--link-hover);
-    text-decoration: underline;
+  /*.post-title {*/
+  /*  background: linear-gradient(to right, #ff7e5f, #feb47b);*/
+  /*  -webkit-background-clip: text;*/
+  /*  color: transparent;*/
+  /*}*/
+
+  .post-title {
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    color: transparent;
   }
 </style>
