@@ -28,6 +28,7 @@ const InstagramIcon = ({
       strokeLinejoin="round"
       aria-label={ariaLabel}
       role={role}
+      className="instagram-icon"
     >
       <title>{title}</title>
       <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
