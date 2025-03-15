@@ -73,12 +73,18 @@ interface SocialsProps {
 const Socials = ({ cta }: SocialsProps) => {
   return (
     <section>
-      <div style={{ alignItems: 'center', display: 'flex', gap: '1rem' }}>
+      <div
+        style={{
+          alignItems: 'center',
+          display: 'flex',
+          gap: '0.5rem'
+        }}
+      >
         <p>{cta}</p>
         <ul
           style={{
             display: 'flex',
-            gap: '0.5rem',
+            gap: '0.2rem',
             listStyle: 'none',
             marginBlock: '1rem'
           }}
