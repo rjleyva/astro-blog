@@ -1,5 +1,3 @@
-import type { JSX } from 'astro/jsx-runtime'
-
 interface SocialProps {
   id: string
   label: string
