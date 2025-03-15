@@ -1,15 +1,19 @@
 ---
+import Main from './Main.astro'
+
 const { frontmatter } = Astro.props
 ---
 
-<meta charset="UTF-8" />
-<section>
-  <div class="markdown-container">
-    <h1>{frontmatter.title}</h1>
-    <p>{frontmatter.description}</p>
-    <slot />
-  </div>
-</section>
+<Main>
+  <meta charset="UTF-8" />
+  <section>
+    <div class="markdown-container">
+      <h1>{frontmatter.title}</h1>
+      <p>{frontmatter.description}</p>
+      <slot />
+    </div>
+  </section>
+</Main>
 
 <style>
   .markdown-container {
