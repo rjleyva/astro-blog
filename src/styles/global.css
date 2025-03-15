@@ -3,7 +3,7 @@
   --foreground-primary: oklch(0.129 0.042 264.695);
   --foreground-secondary: oklch(0.372 0.044 257.287);
   --icons: oklch(0.554 0.046 257.417);
-  --background: #f8f9fa;
+  --background: oklch(0.984 0.003 247.858);
   --link-hover: oklch(0.488 0.243 264.376);
 }
 
@@ -48,6 +48,7 @@ body {
 }
 
 body {
+  background: var(--background);
   color: var(--foreground-primary);
   font-family: 'Inter Variable', sans-serif;
   font-synthesis: none;
