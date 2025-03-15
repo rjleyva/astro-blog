@@ -1,5 +1,5 @@
 .github-icon {
-  color: var(--foreground-secondary);
+  color: var(--icons);
   transition: transform 0.3s ease;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .linkedin-icon {
-  color: var(--foreground-secondary);
+  color: var(--icons);
   transition: transform 0.3s ease;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .instagram-icon {
-  color: var(--foreground-secondary);
+  color: var(--icons);
   transition: transform 0.3s ease;
 }
 
