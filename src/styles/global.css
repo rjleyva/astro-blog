@@ -1,3 +1,11 @@
+:root {
+  /* TODO: Light Mode */
+  --foreground-primary: #121210;
+  --foreground-secondary: #868e96;
+  --background: #f8f9fa;
+  --link-hover: #1c7ed6;
+}
+
 @font-face {
   font-family: 'Rubik Variable';
   font-style: normal;
