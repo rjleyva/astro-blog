@@ -9,7 +9,7 @@ const allPosts = Object.values(
     <h1 style={{ fontSize: '1.5rem' }}>Articles</h1>
     <ul class="post">
       {
-        allPosts.map((post: any) => (
+        allPosts.map((post: any | string) => (
           <li class="post-list">
             <a href={post.url}>
               <h4 class="post-title">{post.frontmatter.title}</h4>
@@ -36,20 +36,12 @@ const allPosts = Object.values(
     padding: 0.6rem;
   }
 
-  /* TODO: figure out how gradient color works */
-
   .post-list:hover {
   }
 
   .post-description {
     color: var(--foreground-secondary);
   }
-
-  /*.post-title {*/
-  /*  background: linear-gradient(to right, #ff7e5f, #feb47b);*/
-  /*  -webkit-background-clip: text;*/
-  /*  color: transparent;*/
-  /*}*/
 
   .post-title {
     background: var(--gradient);
