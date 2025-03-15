@@ -1,0 +1,29 @@
+.github-icon {
+  color: var(--foreground-secondary);
+  transition: transform 0.3s ease;
+}
+
+.github-icon:hover {
+  color: var(--link-hover);
+  transform: scale(1.1) rotate(10deg);
+}
+
+.linkedin-icon {
+  color: var(--foreground-secondary);
+  transition: transform 0.3s ease;
+}
+
+.linkedin-icon:hover {
+  color: var(--link-hover);
+  transform: scale(1.1) rotate(-10deg);
+}
+
+.instagram-icon {
+  color: var(--foreground-secondary);
+  transition: transform 0.3s ease;
+}
+
+.instagram-icon:hover {
+  color: var(--link-hover);
+  transform: scale(1.1) rotate(10deg);
+}
