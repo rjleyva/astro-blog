@@ -1,0 +1,13 @@
+.socialLink {
+  color: var(--link);
+  background: var(--background-secondary);
+  border-radius: 0.4rem;
+  padding: 0.6rem;
+  transition:
+    box-shadow 0.4s,
+    border 0.3s;
+}
+
+.socialLink:hover {
+  box-shadow: var(--shadow) 0px 1px 17px;
+}
