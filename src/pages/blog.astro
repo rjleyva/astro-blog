@@ -1,0 +1,23 @@
+---
+const allPosts = Object.values(
+  import.meta.glob('./posts/*.md', { eager: true })
+)
+---
+
+<section>
+  <div>
+    <h1>Articles</h1>
+    <ul style={{ listStyleType: 'none' }}>
+      {
+        allPosts.map((post: any) => (
+          <li style={{ marginBlock: '1rem' }}>
+            <a href={post.url}>
+              <h1>{post.frontmatter.title}</h1>
+              <p>{post.frontmatter.description}</p>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</section>
