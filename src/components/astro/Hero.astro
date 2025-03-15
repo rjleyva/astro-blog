@@ -1,5 +1,6 @@
 ---
 import Socials from '@components/react/Socials/Socials'
+import Blog from 'src/pages/blog.astro'
 
 interface HeroProps {
   greeting: string
@@ -20,6 +21,7 @@ let { greeting, bio } = Astro.props as HeroProps
     </p>
 
     <Socials cta="Stay connected" />
+    <Blog />
   </div>
 </section>
 
