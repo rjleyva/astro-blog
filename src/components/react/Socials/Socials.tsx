@@ -1,3 +1,5 @@
+import styles from './socials.module.css'
+
 interface SocialProps {
   id: string
   label: string
@@ -49,12 +51,18 @@ const Socials = () => {
             display: 'flex',
             gap: '0.7rem',
             listStyle: 'none',
-            marginBlock: '1rem'
+            marginBlock: '2rem'
           }}
         >
           {Social.map(({ id, url, ariaLabel, target, rel, label }) => (
             <li key={id}>
-              <a href={url} aria-label={ariaLabel} target={target} rel={rel}>
+              <a
+                href={url}
+                aria-label={ariaLabel}
+                target={target}
+                rel={rel}
+                className={styles.socialLink}
+              >
                 {label}
               </a>
             </li>
